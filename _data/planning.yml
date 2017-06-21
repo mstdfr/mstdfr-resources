@@ -1,0 +1,19 @@
+- name: Evernote 
+  desc: Capturing ideas 
+  url: "http://evernote.com"
+
+- name: Google Keep 
+  desc: Capturing ideas 
+  url: "http://keep.google.com"
+
+- name: Trello 
+  desc: Kanban board 
+  url: "http://trello.com"
+
+- name: WriterDuet 
+  desc: Script writing & collaboration 
+  url: "http://writerduet.com"
+
+- name: Doodle 
+  desc: Scheduling 
+  url: "https://doodle.com/"

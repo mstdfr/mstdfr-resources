@@ -1,0 +1,53 @@
+<div class="resources-wrapper">
+		<div class="container">
+			<div class="row">
+
+				<!-- Video Conferencing-->
+				<div class="column resource-list">
+					<h5>Video Conferencing</h5>
+					<ul>
+						{% for resource in site.data.video_conferencing %}
+						<a href="{{ resource.url }}">
+								<li>
+									{{ resource.name }}
+									<p>{{ resource.desc }}</p>
+								</li>
+							</a>
+						{% endfor %}
+						</ul>
+				</div>
+
+				<!-- Audio Editing-->
+				<div class="column resource-list">
+					<h5>Audio Editing</h5>
+					<ul>
+						{% for resource in site.data.audio_editing %}
+						<a href="{{ resource.url }}">
+								<li>
+									{{ resource.name }}
+									<p>{{ resource.desc }}</p>
+								</li>
+							</a>
+						{% endfor %}
+						</ul>
+				</div>
+
+				<!-- Planning -->
+				<div class="column resource-list">
+					<h5>Planning & Creativity</h5>
+					<ul>
+						{% for resource in site.data.planning %}
+						<a href="{{ resource.url }}">
+								<li>
+									{{ resource.name }}
+									<p>{{ resource.desc }}</p>
+								</li>
+							</a>
+						{% endfor %}
+					</ul>
+				</div>
+
+			</div>
+		</div>
+	</div>
+

@@ -1,0 +1,23 @@
+- name: Audacity 
+  desc: Win, Mac, Linux 
+  url: "http://www.audacityteam.org"
+
+- name: Garage Band 
+  desc: Mac 
+  url: "https://www.apple.com/sa/mac/garageband/"
+
+- name: Adobe Audition
+  desc: Win, Mac 
+  url: "http://www.adobe.com/mena_en/products/audition.html"
+
+- name: Pro Tools 
+  desc: Win, Mac 
+  url: "http://www.avid.com/pro-tools"
+
+- name: Ardour 
+  desc: Win, Mac, Linux 
+  url: "http://ardour.org"
+
+- name: Logic Pro 
+  desc: Mac 
+  url: "https://www.apple.com/lae/logic-pro/"

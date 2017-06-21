@@ -1,0 +1,19 @@
+- name: Appear.in
+  desc: web-based video conferencing
+  url: "http://appear.in"
+
+- name: Skype 
+  desc: Win, Mac, Linux 
+  url: "http://skype.com"
+
+- name: Zoom.us 
+  desc: Win, Mac, Linux 
+  url: "http://zoom.us"
+
+- name: Google Hangouts 
+  desc: web-based video conferencing 
+  url: "http://hangouts.google.com"
+
+- name: Jitsi 
+  desc: Open source video conferencing 
+  url: "https://jitsi.org/"
