@@ -1,0 +1,31 @@
+- name: Pocketcast 
+  desc: Android, iPhone, Windows phone, iPad 
+  url: "http://www.shiftyjelly.com/android/pocketcasts"
+
+- name: Antenna Pod 
+  desc: Android 
+  url: "http://antennapod.org/"
+
+- name: Overcast 
+  desc: iPhone, iPad 
+  url: "https://overcast.fm/"
+
+- name: gPodder 
+  desc: Win, Mac, Linux
+  url: "https://gpodder.github.io/"
+
+- name: Player FM 
+  desc: Android 
+  url: "https://play.google.com/store/apps/details?id=fm.player"
+
+- name: Vocal 
+  desc: Linux 
+  url: "http://vocalproject.net/"
+
+- name: Downcast 
+  desc: iPhone, iPad 
+  url: "http://www.downcastapp.com/"
+
+- name: Stitcher 
+  desc: Android, iPhone, iPad, Kindle Fire 
+  url: "http://stitcher.com"

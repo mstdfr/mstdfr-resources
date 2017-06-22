@@ -21,3 +21,15 @@
 - name: Logic Pro 
   desc: Mac 
   url: "https://www.apple.com/lae/logic-pro/"
+
+- name: Twisted Wave 
+  desc: Mac, iPhone, iPad 
+  url: "https://twistedwave.com/"
+
+- name: Auphonic 
+  desc: Professional post-production | Mac, Win
+  url: "http://auphonic.com"
+
+- name: Levelator 
+  desc: Adjust Audio Levels | Mac, Win, Linux 
+  url: "http://www.conversationsnetwork.org/levelator/"

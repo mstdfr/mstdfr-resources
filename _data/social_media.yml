@@ -1,0 +1,15 @@
+- name: Buffer 
+  desc: Schedule your social media 
+  url: "http://buffer.com"
+
+- name: Audiogram 
+  desc: Turn audio into sharable video 
+  url: "https://github.com/nprapps/npr-audiogram"
+
+- name: Pablo 
+  desc: Create amazing images for social media
+  url: "https://pablo.buffer.com/"
+
+- name: Canva 
+  desc: Create amazing images for social media
+  url: "http://canva.com"

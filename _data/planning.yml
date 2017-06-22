@@ -17,3 +17,15 @@
 - name: Doodle 
   desc: Scheduling 
   url: "https://doodle.com/"
+
+- name: ScheduleOnce 
+  desc: Scheduling 
+  url: "http://www.scheduleonce.com/"
+
+- name: Slack 
+  desc: Chatting for teams 
+  url: "http://slack.com"
+
+- name: Asana 
+  desc: Work tracking & project management 
+  url: "http://asana.com"

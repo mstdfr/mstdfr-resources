@@ -1,0 +1,7 @@
+- name: Podtrac 
+  desc: 
+  url: "http://podtrac.com"
+
+- name: Blubrry Statistics 
+  desc: 
+  url: "https://create.blubrry.com/resources/podcast-media-download-statistics/"

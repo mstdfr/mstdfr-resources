@@ -1,0 +1,23 @@
+- name: Soundbyte 
+  desc: Win, Mac 
+  url: "http://www.blackcatsystems.com/software/soundbyte.html"
+
+- name: Jingle Pallete 
+  desc: Win 
+  url: "http://www.jinglepalette.com/"
+
+- name: Sound Plant 
+  desc: Win, Mac 
+  url: "http://www.soundplant.org/"
+
+- name: EventSoundControl
+  desc: Win, Mac, Linux
+  url: "https://www.eventsoundcontrol.com/"
+
+- name: Qlab 
+  desc: Mac 
+  url: "http://figure53.com/qlab/"
+
+- name: Soundboard 
+  desc: Mac 
+  url: "http://soundboard.sourceforge.net/index.html"

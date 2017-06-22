@@ -1,0 +1,19 @@
+- name: Wordpress 
+  desc: 
+  url: "http://wordpress.com"
+
+- name: Squarespace 
+  desc: 
+  url: "http://squarespace.com"
+
+- name: Feed Validator 
+  desc: 
+  url: "http://www.feedvalidator.org/"
+
+- name: Cast Feed Validator 
+  desc: 
+  url: "http://castfeedvalidator.com/"
+
+- name: Podbase Feed Validator 
+  desc: 
+  url: "https://podba.se/validate/"

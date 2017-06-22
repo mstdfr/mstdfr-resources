@@ -1,0 +1,11 @@
+- name: Express Scribe 
+  desc: Foot Pedal Controlled Digital Transcription Audio Player for Mac 
+  url: "http://www.nch.com.au/scribe/"
+
+- name: Speechpad 
+  desc: Paid transcribing service
+  url: "https://www.speechpad.com/"
+
+- name: AudioShell 
+  desc: ID3 tagging in Windows Explorer 
+  url: "http://audioshell.software.informer.com/1.3/"

@@ -1,0 +1,27 @@
+- name: LibSyn
+  desc: 
+  url: "http://libsyn.com"
+
+- name: Blubrry 
+  desc: 
+  url: "http://blubrry.com"
+
+- name: Soundcloud 
+  desc: 
+  url: "http://soundcloud.com"
+
+- name: Fireside 
+  desc: 
+  url: "http://fireside.fm"
+
+- name: Buzzsprout 
+  desc: 
+  url: "https://www.buzzsprout.com/"
+
+- name: Spreaker 
+  desc:  
+  url: "https://www.spreaker.com"
+
+- name: Archive.org 
+  desc: Free hosting 
+  url: "https://archive.org/"

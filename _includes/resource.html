@@ -1,53 +1,319 @@
 <div class="resources-wrapper">
-		<div class="container">
-			<div class="row">
+	<div class="container">
+		<div class="row">
 
-				<!-- Video Conferencing-->
-				<div class="column resource-list">
-					<h5>Video Conferencing</h5>
-					<ul>
-						{% for resource in site.data.video_conferencing %}
-						<a href="{{ resource.url }}">
-								<li>
-									{{ resource.name }}
-									<p>{{ resource.desc }}</p>
-								</li>
-							</a>
-						{% endfor %}
-						</ul>
-				</div>
-
-				<!-- Audio Editing-->
-				<div class="column resource-list">
-					<h5>Audio Editing</h5>
-					<ul>
-						{% for resource in site.data.audio_editing %}
-						<a href="{{ resource.url }}">
-								<li>
-									{{ resource.name }}
-									<p>{{ resource.desc }}</p>
-								</li>
-							</a>
-						{% endfor %}
-						</ul>
-				</div>
-
-				<!-- Planning -->
-				<div class="column resource-list">
-					<h5>Planning & Creativity</h5>
-					<ul>
-						{% for resource in site.data.planning %}
-						<a href="{{ resource.url }}">
-								<li>
-									{{ resource.name }}
-									<p>{{ resource.desc }}</p>
-								</li>
-							</a>
-						{% endfor %}
-					</ul>
-				</div>
-
+			<!-- Video Conferencing-->
+			<div class="column resource-list">
+				<h5>Video Conferencing</h5>
+				<ul>
+					{% for resource in site.data.video_conferencing %}
+					<a href="{{ resource.url }}">
+						<li>
+							{{ resource.name }}
+								<p>{{ resource.desc }}</p>
+						</li>
+					</a>
+					{% endfor %}
+				</ul>
 			</div>
+
+			<!-- Audio Editing-->
+			<div class="column resource-list">
+				<h5>Audio Editing</h5>
+				<ul>
+					{% for resource in site.data.audio_editing %}
+					<a href="{{ resource.url }}">
+						<li>
+							{{ resource.name }}
+							<p>{{ resource.desc }}</p>
+						</li>
+					</a>
+					{% endfor %}
+					</ul>
+			</div>
+
+			<!-- Planning -->
+			<div class="column resource-list">
+				<h5>Planning & Creativity</h5>
+				<ul>
+					{% for resource in site.data.planning %}
+					<a href="{{ resource.url }}">
+						<li>
+							{{ resource.name }}
+							<p>{{ resource.desc }}</p>
+						</li>
+					</a>
+					{% endfor %}
+				</ul>
+			</div>
+
 		</div>
 	</div>
+</div>
+
+<div class="resources-wrapper">
+	<div class="container">
+		<div class="row">
+
+			<!-- Podcasting News -->
+			<div class="column resource-list">
+				<h5>Podcasting News</h5>
+				<ul>
+					{% for resource in site.data.podcasting_news %}
+					<a href="{{ resource.url }}">
+						<li>
+							{{ resource.name }}
+								<p>{{ resource.desc }}</p>
+						</li>
+					</a>
+					{% endfor %}
+				</ul>
+			</div>
+
+			<!-- Soundboards -->
+			<div class="column resource-list">
+				<h5>Soundboards</h5>
+				<ul>
+					{% for resource in site.data.soundboards %}
+					<a href="{{ resource.url }}">
+						<li>
+							{{ resource.name }}
+							<p>{{ resource.desc }}</p>
+						</li>
+					</a>
+					{% endfor %}
+					</ul>
+			</div>
+
+			<!-- Statistics -->
+			<div class="column resource-list">
+				<h5>Statistics</h5>
+				<ul>
+					{% for resource in site.data.statistics %}
+					<a href="{{ resource.url }}">
+						<li>
+							{{ resource.name }}
+							<p>{{ resource.desc }}</p>
+						</li>
+					</a>
+					{% endfor %}
+				</ul>
+			</div>
+
+		</div>
+	</div>
+</div>
+
+<div class="resources-wrapper">
+	<div class="container">
+		<div class="row">
+
+			<!-- Hosting -->
+			<div class="column resource-list">
+				<h5>Hosting</h5>
+				<ul>
+					{% for resource in site.data.hosting %}
+					<a href="{{ resource.url }}">
+						<li>
+							{{ resource.name }}
+								<p>{{ resource.desc }}</p>
+						</li>
+					</a>
+					{% endfor %}
+				</ul>
+			</div>
+
+			<!-- Podcatchers -->
+			<div class="column resource-list">
+				<h5>Podcatchers</h5>
+				<ul>
+					{% for resource in site.data.podcatchers %}
+					<a href="{{ resource.url }}">
+						<li>
+							{{ resource.name }}
+							<p>{{ resource.desc }}</p>
+						</li>
+					</a>
+					{% endfor %}
+					</ul>
+			</div>
+
+			<!-- Social Media -->
+			<div class="column resource-list">
+				<h5>Social Media</h5>
+				<ul>
+					{% for resource in site.data.social_media %}
+					<a href="{{ resource.url }}">
+						<li>
+							{{ resource.name }}
+							<p>{{ resource.desc }}</p>
+						</li>
+					</a>
+					{% endfor %}
+				</ul>
+			</div>
+
+		</div>
+	</div>
+</div>
+
+<div class="resources-wrapper">
+	<div class="container">
+		<div class="row">
+
+			<!-- Directories -->
+			<div class="column resource-list">
+				<h5>Directories</h5>
+				<ul>
+					{% for resource in site.data.directories %}
+					<a href="{{ resource.url }}">
+						<li>
+							{{ resource.name }}
+								<p>{{ resource.desc }}</p>
+						</li>
+					</a>
+					{% endfor %}
+				</ul>
+			</div>
+
+			<!-- Web Players -->
+			<div class="column resource-list">
+				<h5>Web Players</h5>
+				<ul>
+					{% for resource in site.data.players %}
+					<a href="{{ resource.url }}">
+						<li>
+							{{ resource.name }}
+							<p>{{ resource.desc }}</p>
+						</li>
+					</a>
+					{% endfor %}
+					</ul>
+			</div>
+
+			<!-- Websites & RSS -->
+			<div class="column resource-list">
+				<h5>Websites & RSS</h5>
+				<ul>
+					{% for resource in site.data.websites_rss %}
+					<a href="{{ resource.url }}">
+						<li>
+							{{ resource.name }}
+							<p>{{ resource.desc }}</p>
+						</li>
+					</a>
+					{% endfor %}
+				</ul>
+			</div>
+
+		</div>
+	</div>
+</div>
+
+<div class="resources-wrapper">
+	<div class="container">
+		<div class="row">
+
+			<!-- Video -->
+			<div class="column resource-list">
+				<h5>Video</h5>
+				<ul>
+					{% for resource in site.data.video %}
+					<a href="{{ resource.url }}">
+						<li>
+							{{ resource.name }}
+								<p>{{ resource.desc }}</p>
+						</li>
+					</a>
+					{% endfor %}
+				</ul>
+			</div>
+
+			<!-- Sound Archives -->
+			<div class="column resource-list">
+				<h5>Sound Archives</h5>
+				<ul>
+					{% for resource in site.data.sound_archives%}
+					<a href="{{ resource.url }}">
+						<li>
+							{{ resource.name }}
+							<p>{{ resource.desc }}</p>
+						</li>
+					</a>
+					{% endfor %}
+					</ul>
+			</div>
+
+			<!-- Tagging & Transcribing -->
+			<div class="column resource-list">
+				<h5>Tagging & Transcribing</h5>
+				<ul>
+					{% for resource in site.data.tagging_transcribing %}
+					<a href="{{ resource.url }}">
+						<li>
+							{{ resource.name }}
+							<p>{{ resource.desc }}</p>
+						</li>
+					</a>
+					{% endfor %}
+				</ul>
+			</div>
+
+		</div>
+	</div>
+</div>
+
+<div class="resources-wrapper">
+	<div class="container">
+		<div class="row">
+
+			<!--Recording -->
+			<div class="column resource-list">
+				<h5>Recording</h5>
+				<ul>
+					{% for resource in site.data.recording %}
+					<a href="{{ resource.url }}">
+						<li>
+							{{ resource.name }}
+								<p>{{ resource.desc }}</p>
+						</li>
+					</a>
+					{% endfor %}
+				</ul>
+			</div>
+
+			<!-- Wordpress Plugins-->
+			<div class="column resource-list">
+				<h5>Wordpress Plugins</h5>
+				<ul>
+					{% for resource in site.data.sound_archives %}
+					<a href="{{ resource.url }}">
+						<li>
+							{{ resource.name }}
+							<p>{{ resource.desc }}</p>
+						</li>
+					</a>
+					{% endfor %}
+					</ul>
+			</div>
+
+			<!-- Misc. -->
+			<div class="column resource-list">
+				<h5>Misc.</h5>
+				<ul>
+					{% for resource in site.data.misc %}
+					<a href="{{ resource.url }}">
+						<li>
+							{{ resource.name }}
+							<p>{{ resource.desc }}</p>
+						</li>
+					</a>
+					{% endfor %}
+				</ul>
+			</div>
+
+		</div>
+	</div>
+</div>
+
 

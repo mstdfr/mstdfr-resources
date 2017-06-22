@@ -1,0 +1,11 @@
+- name: Bitlove 
+  desc: Creates torrents for all enclosures of an RSS/ATOM feed and seeds them 
+  url: "http://bitlove.org/"
+
+- name: Popup Archive 
+  desc: The search engine for podcasts
+  url: "http://popuparchive.com"
+
+- name: Speak Pipe 
+  desc: Receive voice messages from your audience direcetly on your website
+  url: "https://www.speakpipe.com/"
